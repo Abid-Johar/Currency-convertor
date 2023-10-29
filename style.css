@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+   background-color: rgb(152, 152, 157);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.main{
+    width: 400px;
+    height: 500px;
+    background-color:  rgb(152, 152, 157);
+    border-radius: 10px;
+    border: 2px  solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 8px 4px black;
+}
+.main>h1{
+    padding: 50px 60px;
+}
+#mainbottom{
+    padding: 30px 60px;
+}
+#mainbottom>label{
+    font-size: 1.7vw;
+    font-weight: 700;
+}
+#mainbottom input{
+     margin-top: 10px;
+    background:transparent ;
+    text-decoration: none;
+    border: none;
+    font-size: 1.6vw;
+    border-bottom: 2px solid black;
+    outline: none;
+    
+    opacity: 0.5;
+}
+#mainbottom input:hover{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 1.6vw;
+    
+}
+#dropdown{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 80%;
+    height: 60px;
+    display: flex ;
+     align-items: center;
+     justify-content: space-between;
+    
+}
+#dropdown select{
+    background-color: rgb(197, 202, 202);
+    padding:  0.5vw 1vw;
+}
+button{
+    padding: 1.2vw 5vw;
+    background-color: rgb(109, 191, 199);
+    border: none;
+    border-radius: 7px;
+    margin-left: 100px;
+}
+
+#result{
+    width: 80%;
+    height: 50px;
+    background-color: rgb(187, 192, 192);
+    font-size: 1.3vw;
+    font-weight: 500;
+    padding-top: 15px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: black;
+}
